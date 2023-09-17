@@ -101,7 +101,7 @@ namespace Murder.Data
 
         protected virtual GameProfile CreateGameProfile() => _game?.CreateGameProfile() ?? new();
 
-        public const string GameProfileFileName = @"game_config";
+        public const string GameProfileFileName = @"game_config.json";
         
         protected readonly string ShaderRelativePath = Path.Join("shaders", "{0}.mgfxo");
 
